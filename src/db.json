@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Adidas,pumas & more",
+      "category": "Women's Sports Shoes",
+      "price": 3.99,
+      "unit": "kg",
+      "image": "https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?t=st=1722694703~exp=1722698303~hmac=fed96d299d728eeafb5f64b3a90c5c0a6e97f2e8bae3e1e4b28045d9f430790b&w=900"
+    },
+    {
+      "id": 2,
+      "name": "Branded Kurtas",
+      "category": "Womens",
+      "price": 1.29,
+      "unit": "kg",
+      "image": "https://img.freepik.com/free-photo/cheerful-traditional-indian-woman-white-background-studio-shot_1157-48206.jpg?t=st=1722694640~exp=1722698240~hmac=0bab2e10fd26b362f82e049d3a7d90ec4c708a1618130100cd23b5de22ff337f&w=360"
+    },
+    {
+      "id": 3,
+      "name": "Shirts",
+      "category": "Mens",
+      "price": 2.49,
+      "unit": "kg",
+      "image": "https://img.freepik.com/free-photo/portrait-handsome-young-model-man-dressed-jeans-clothes-posing-isolated_158538-9098.jpg?t=st=1722694616~exp=1722698216~hmac=0185325e4817c8ac2305acf8d6a1df32301179fde4d005f4e6aa199b0550560b&w=740"
+    },
+    {
+      "id": 4,
+      "name": "Sun Glasses",
+      "category": "Fashions",
+      "price": 2.49,
+      "unit": "kg",
+      "image":"https://img.freepik.com/free-photo/sunglasses_1203-7883.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
+    },
+    {
+      "id": 5,
+      "name": "SmartPhones",
+      "category": "Electronics",
+      "price": 2.49,
+      "unit": "kg",
+      "image":"https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437077.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
+
+    },
+    {
+      "id": 6,
+      "name": "HeadPhones",
+      "category": "Electronics",
+      "price": 2.49,
+      "unit": "kg",
+      "image":"https://img.freepik.com/free-photo/vertical-shot-white-headphones-with-red-cable_181624-21151.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
+    }
+  ]
+}

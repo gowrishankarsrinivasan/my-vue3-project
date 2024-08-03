@@ -1,26 +1,36 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <NavbarComponent />
+    <carouselComponent/>
+    <ProductComponent />
+    <v-footer color="primary" dark>
+      <v-container>
+        <v-row>
+          <v-col class="text-center">
+            &copy; 2024 My E-Commerce App. All rights reserved.
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-footer>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import NavbarComponent from './components/Navbar.vue';
+import ProductComponent from './components/ProductComponent.vue';
+import carouselComponent from './components/carouselComponent.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    NavbarComponent,
+    ProductComponent,
+    carouselComponent
+
+
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Global styles can be added here */
 </style>
