@@ -1,17 +1,12 @@
 <template>
   <v-app>
     <NavbarComponent />
-    <carouselComponent/>
+    <carouselComponent />
     <ProductComponent />
-    <v-footer color="primary" dark>
-      <v-container>
-        <v-row>
-          <v-col class="text-center">
-            &copy; 2024 My E-Commerce App. All rights reserved.
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-footer>
+    <CartComponent />
+    <FooterComponent />
+
+    <ProductCurosel/>
   </v-app>
 </template>
 
@@ -19,14 +14,18 @@
 import NavbarComponent from './components/Navbar.vue';
 import ProductComponent from './components/ProductComponent.vue';
 import carouselComponent from './components/carouselComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
+import CartComponent from './components/CartComponent.vue';
+import ProductCurosel from './components/ProductCurosel.vue';
 export default {
   name: 'App',
   components: {
     NavbarComponent,
     ProductComponent,
-    carouselComponent
-
-
+    carouselComponent,
+    CartComponent,
+    ProductCurosel,
+    FooterComponent
   },
 };
 </script>

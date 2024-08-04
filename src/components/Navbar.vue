@@ -1,7 +1,7 @@
 <template>
 
   <v-layout>
-    <v-app-bar style="background-color: #33ff00;">
+    <v-app-bar style="background-color: #ffffff;">
       <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>My Store</v-toolbar-title>
@@ -25,10 +25,10 @@
       <div class="content">
         <div class="content-container">
           <div class="left-content">
-            <p>Trade-in-offer</p>
             <h1>Super value deals</h1>
             <h2 data-aos="fade-up">On all products</h2>
             <h3>save more with coupons & get up to 70% off!</h3>
+            <p>Trade-in-offer</p>
             <button class="shop-button" data-aos="fade-up" data-aos-delay="400">Shop Now!</button>
           </div>
         </div>
@@ -150,6 +150,7 @@ img {
 }
  */
 .content h1 {
+  left: 0;
   z-index: 100;
   font-size: 60px;
   text-transform: capitalize;
