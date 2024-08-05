@@ -1,5 +1,5 @@
 <template>
-    <v-carousel class="pt-10" height="400" show-arrows="hover" cycle hide-delimiter-background>
+    <v-carousel data-aos="zoom-in-down" class="pt-10" height="400" show-arrows="hover" cycle hide-delimiter-background>
         <v-carousel-item v-for="(banner, i) in banners" :key="i">
             <v-img :src="banner" class="carousel-image">
             </v-img>

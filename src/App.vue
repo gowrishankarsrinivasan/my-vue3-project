@@ -4,9 +4,9 @@
     <carouselComponent />
     <ProductComponent />
     <CartComponent />
-    <FooterComponent />
 
-    <ProductCurosel/>
+    <ProductCurosel />
+    <FooterComponent />
   </v-app>
 </template>
 
@@ -14,9 +14,9 @@
 import NavbarComponent from './components/Navbar.vue';
 import ProductComponent from './components/ProductComponent.vue';
 import carouselComponent from './components/carouselComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
 import CartComponent from './components/CartComponent.vue';
 import ProductCurosel from './components/ProductCurosel.vue';
+import FooterComponent from './components/FooterComponent.vue';
 export default {
   name: 'App',
   components: {

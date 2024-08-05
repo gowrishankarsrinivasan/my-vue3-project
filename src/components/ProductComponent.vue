@@ -33,9 +33,9 @@
                     </v-card>
                 </v-col>
             </v-row>
-            <v-row>
+            <!-- <v-row>
                 <v-img :src="img"></v-img>
-            </v-row>
+            </v-row> -->
         </v-container>
     </div>
 

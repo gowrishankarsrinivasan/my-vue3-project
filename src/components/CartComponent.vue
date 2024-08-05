@@ -43,15 +43,15 @@
             </template>
 
             <template v-slot:[`item.actions`]="{ item }">
-    <div class="d-flex justify-space-between align-center">
-        <v-btn icon @click="editItem(item)">
-            <v-icon>mdi-pencil</v-icon>
-        </v-btn>
-        <v-btn icon @click="deleteItem(item)">
-            <v-icon>mdi-delete</v-icon>
-        </v-btn>
-    </div>
-</template>
+                <div class="d-flex justify-space-between align-center">
+                    <v-btn @click="editItem(item)">
+                        <v-icon>mdi-pencil</v-icon>
+                    </v-btn>
+                    <v-btn @click="deleteItem(item)">
+                        <v-icon>mdi-delete</v-icon>
+                    </v-btn>
+                </div>
+            </template>
 
 
         </v-data-table>

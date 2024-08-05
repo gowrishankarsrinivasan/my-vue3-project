@@ -30,7 +30,7 @@
       "category": "Fashions",
       "price": 2.49,
       "unit": "kg",
-      "image":"https://img.freepik.com/free-photo/sunglasses_1203-7883.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
+      "image": "https://img.freepik.com/free-photo/sunglasses_1203-7883.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
     },
     {
       "id": 5,
@@ -38,8 +38,7 @@
       "category": "Electronics",
       "price": 2.49,
       "unit": "kg",
-      "image":"https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437077.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
-
+      "image": "https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437077.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
     },
     {
       "id": 6,
@@ -47,7 +46,92 @@
       "category": "Electronics",
       "price": 2.49,
       "unit": "kg",
-      "image":"https://img.freepik.com/free-photo/vertical-shot-white-headphones-with-red-cable_181624-21151.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
+      "image": "https://img.freepik.com/free-photo/vertical-shot-white-headphones-with-red-cable_181624-21151.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid"
+    }
+  ],
+  "smartPhones": [
+    {
+      "id": 1,
+      "brand": "Apple",
+      "name": "iPhone 14 Pro",
+      "price": 999,
+      "description": "The latest iPhone with A15 Bionic chip and advanced camera system.",
+      "quantity": 10,
+      "imgLink": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "name": "Samsung Galaxy S23",
+      "price": 899,
+      "description": "The newest Galaxy phone with a powerful processor and stunning display.",
+      "quantity": 15,
+      "imgLink": "https://images.pexels.com/photos/214487/pexels-photo-214487.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 3,
+      "brand": "Google",
+      "name": "Google Pixel 7",
+      "price": 799,
+      "description": "Google's flagship phone with the latest Android experience and superb camera.",
+      "quantity": 20,
+      "imgLink": "https://images.pexels.com/photos/14486283/pexels-photo-14486283.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 4,
+      "brand": "OnePlus",
+      "name": "OnePlus 11",
+      "price": 699,
+      "description": "High-performance phone with fast charging and smooth display.",
+      "quantity": 25,
+      "imgLink": "https://images.pexels.com/photos/9403824/pexels-photo-9403824.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 5,
+      "brand": "Xiaomi",
+      "name": "Xiaomi Mi 12",
+      "price": 599,
+      "description": "Feature-packed phone with excellent battery life and impressive camera.",
+      "quantity": 30,
+      "imgLink": "https://images.pexels.com/photos/16079514/pexels-photo-16079514/free-photo-of-a-smartphone-lying-on-the-ground.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "image": "https://img.freepik.com/free-photo/man-with-sunglasses-wearing-white-t-shirt-posing_158538-16723.jpg?size=626&ext=jpg&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid",
+      "title": "Metronaut, Adrenex...",
+      "subtitle": "Under 349/-"
+    },
+    {
+      "id": 2,
+      "image": "https://img.freepik.com/free-psd/smartphone-mockup_1310-563.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid",
+      "title": "Mobile Pouches",
+      "subtitle": "From ₹99"
+    },
+    {
+      "id": 3,
+      "image": "https://img.freepik.com/free-photo/young-woman-beautiful-yellow-dress_1303-17541.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid",
+      "title": "Branded Kurtas",
+      "subtitle": "From ₹399"
+    },
+    {
+      "id": 4,
+      "image": "https://img.freepik.com/free-photo/sandals-beach-summer-fashion-aerial-view_53876-105548.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=ais_hybrid",
+      "title": "Metro, Mochi ...",
+      "subtitle": "Under ₹999"
+    },
+    {
+      "id": 5,
+      "image": "https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400866.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=sph",
+      "title": "Sabse Badi Deals",
+      "subtitle": "Min 70% Off"
+    },
+    {
+      "id": 6,
+      "image": "https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400843.jpg?uid=R139142068&ga=GA1.1.1509774173.1707400024&semt=sph",
+      "title": "Discounts You Can't Miss!",
+      "subtitle": "Min 60%+Extra 10% Off"
     }
   ]
 }
