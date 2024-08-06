@@ -95,7 +95,6 @@ export default {
             }
         },
         editItem(item) {
-            // Add your edit logic here
             alert(`Edit ${item.name}`);
         },
         deleteItem(item) {
