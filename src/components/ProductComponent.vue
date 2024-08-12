@@ -3,12 +3,8 @@
         <v-container style="height: auto; background-color: var(--v-primary-base);">
             <v-row class="text-center pb-10">
                 <v-col>
-                    <h1 class="display-1 font-weight-bold">
-                        Featured Product
-                    </h1>
-                    <h2 class="display-2 font-weight-light">
-                        The best products we have on sale
-                    </h2>
+                    <h1 class="display-1 font-weight-bold">Featured Product</h1>
+                    <h2 class="display-2 font-weight-light">The best products we have on sale</h2>
                 </v-col>
             </v-row>
             <v-row class="pt-6">
@@ -24,7 +20,7 @@
                                 </v-col>
                                 <v-spacer></v-spacer>
                                 <v-col cols="auto" class="text-right">
-                                    <v-btn color="primary" outlined>
+                                    <v-btn color="primary" outlined @click="addToCart(product)">
                                         Add to Cart
                                     </v-btn>
                                 </v-col>
@@ -38,7 +34,6 @@
             </v-row> -->
         </v-container>
     </div>
-
 </template>
 
 <script>
@@ -46,6 +41,8 @@ import axios from 'axios';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import img from "../assets/Banners/Tb.png";
+import { mapActions } from 'vuex'; // Import Vuex
+
 export default {
     name: 'ProductComponent',
     data() {
@@ -66,6 +63,7 @@ export default {
                 console.error('Error fetching products:', error);
             }
         },
+        ...mapActions(['addToCart']) // Map Vuex actions
     },
     mounted() {
         AOS.init({

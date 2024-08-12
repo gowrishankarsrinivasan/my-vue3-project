@@ -7,6 +7,7 @@
 
     <ProductCurosel />
     <FooterComponent />
+    <DisplayCartItems />
   </v-app>
 </template>
 
@@ -17,6 +18,7 @@ import carouselComponent from './components/carouselComponent.vue';
 import CartComponent from './components/CartComponent.vue';
 import ProductCurosel from './components/ProductCurosel.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import DisplayCartItems from './components/DisplayCartItems.vue';
 export default {
   name: 'App',
   components: {
@@ -25,7 +27,8 @@ export default {
     carouselComponent,
     CartComponent,
     ProductCurosel,
-    FooterComponent
+    FooterComponent,
+    DisplayCartItems
   },
 };
 </script>
