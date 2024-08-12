@@ -4,7 +4,6 @@
     <carouselComponent />
     <ProductComponent />
     <CartComponent />
-
     <ProductCurosel />
     <FooterComponent />
     <DisplayCartItems />
