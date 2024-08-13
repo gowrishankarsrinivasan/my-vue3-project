@@ -98,7 +98,7 @@
                         <v-icon class="mx-2">mdi-twitter</v-icon>
                         <v-icon class="mx-2">mdi-youtube</v-icon>
                     </v-row>
-                    <v-row justify="center" class="mt-2">
+                    <!-- <v-row justify="center" class="mt-2">
                         <v-img src="visa.png" height="40"></v-img>
                         <v-img src="mastercard.png" height="40"></v-img>
                         <v-img src="discover.png" height="40"></v-img>
@@ -106,7 +106,7 @@
                         <v-img src="netbanking.png" height="40"></v-img>
                         <v-img src="cashondelivery.png" height="40"></v-img>
                         <v-img src="emi.png" height="40"></v-img>
-                    </v-row>
+                    </v-row> -->
                 </v-col>
             </v-row>
         </v-container>

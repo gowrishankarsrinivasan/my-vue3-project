@@ -1,37 +1,28 @@
 <template>
   <v-app>
-    <NavbarComponent />
-    <carouselComponent />
-    <ProductComponent />
-    <CartComponent />
-    <ProductCurosel />
-    <FooterComponent />
-    <DisplayCartItems />
+    <v-main>
+      <NavbarComponent />
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
+      <FooterComponent />
+    </v-main>
   </v-app>
 </template>
 
 <script>
 import NavbarComponent from './components/Navbar.vue';
-import ProductComponent from './components/ProductComponent.vue';
-import carouselComponent from './components/carouselComponent.vue';
-import CartComponent from './components/CartComponent.vue';
-import ProductCurosel from './components/ProductCurosel.vue';
 import FooterComponent from './components/FooterComponent.vue';
-import DisplayCartItems from './components/DisplayCartItems.vue';
+// import HomeComponent from './components/HomeComponent.vue';
+
 export default {
   name: 'App',
   components: {
     NavbarComponent,
-    ProductComponent,
-    carouselComponent,
-    CartComponent,
-    ProductCurosel,
     FooterComponent,
-    DisplayCartItems
+    // HomeComponent
   },
 };
 </script>
 
-<style>
-/* Global styles can be added here */
-</style>
+<style></style>
