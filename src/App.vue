@@ -19,7 +19,6 @@ export default {
   components: {
     NavbarComponent,
     FooterComponent,
-    // HomeComponent
   },
 };
 </script>
