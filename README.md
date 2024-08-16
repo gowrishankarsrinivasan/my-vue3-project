@@ -1,3 +1,6 @@
+#Its an E-commerce application
+
+
 # my-vue3-project
 
 ## Project setup
